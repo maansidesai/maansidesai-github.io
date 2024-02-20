@@ -22,7 +22,12 @@
       description:
         - Utilized naturalistic movie trailer dataset to build encoding models to predict EEG responses to acoustic and phonetic information.
         - Resulted in masters thesis - "Neural speech tracking in quiet and noisy listening environments using naturalistic stimuli"
-
+    - title: BM
+      institution: University of California, Santa Barbara, Santa Barbara CA, USA
+      year: 2015
+      description:
+        - Majored in a performance track music  degree with an emphasis on piano performance 
+        
 - title: Experience
   type: time_table
   contents:

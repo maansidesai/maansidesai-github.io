@@ -1,36 +1,35 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Maansi Desai",
+    "label": "Computational Neuroscienst | Postdoctoral Fellow | Independent Consultant. Interested in using machine learning to solve the brain ",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "maansi.desai@utexas.edu",
+    "url": "https://maansidesai.github.io/",
+    "summary": "I am computational neuroscienst with a background in speech, audio, electrophysiology, and machine learning",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "2515 Speedway",
+      "postalCode": "TX 78712",
+      "city": "Austin",
       "countryCode": "US",
-      "region": "California"
+      "region": "Texas"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "maansi-desai",
+        "url": "https://www.linkedin.com/in/maansi-desai/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "The University of Texas at Austin, Austin TX, USA",
+      "position": "Postdoctoral Fellow",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "startDate": "2023-07-01",
+      "endDate": "Present",
+      "summary": "Using feature extraction and sustem identification techniques (linear encoding and decoding models) to investigate acoustic, phonetic, and visual processing of speech, audiovisual information, and other natural sounds in the brains of children and adults with drug resistant epilepsy using intracranial recordings.",
+      "highlights": ["Speech, audiovisual processing, computational neuroscience, machine learning"]
     }
   ],
   "volunteer": [
