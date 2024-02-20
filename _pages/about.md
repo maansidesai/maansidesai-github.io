@@ -21,6 +21,5 @@ social: true # includes social icons at the bottom of the page
 
 I received my PhD at The University of Texas at Austin in Speech, Language, and Hearing Sciences with an emphasis on auditory and computational neuroscience. My dissertation work entailed utilizing acoustically rich audiovisual naturalistic stimuli to investigate speech encoding and decoding in the brain using scalp EEG and intracranial EEG. My research interests include auditory attention, speech and language, and utilizing electrophysiological modalities to advance the field of neurotechnology translational research. I seek to enhance brain-computer interfaces and wearables to assist those with various forms of communication impairments.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 

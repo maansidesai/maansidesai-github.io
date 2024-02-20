@@ -2,21 +2,21 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Maansi Desai
+    - name: #Date of Birth
+      value: #14th March 1879
     - name: Languages
-      value: English, German
+      value: English (fluent), Gujarati (fluent), Spanish (proficient), Hindi (proficient)
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: The University of Texas at Austin, Austin TX, USA
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
+        - My PhD research used naturalistic stimuli, specifically children’s movie trailers, to understand how the brain processes speech and audiovisual information. A primary motivation was to see if it was possible to replace more controlled experiments, such as sentence listening, with stimuli that are more engaging and fun to listen to. This is particularly important as some of my dissertation research involves working with intracranial data from children in an in-patient hospital environment, so interesting tasks mean a better experience for the researcher and participant. Results from scalp EEG and stereo-EEG showed that it was possible to robustly encode speech using acoustically rich and naturalistic stimuli such as movie trailers and these results were comparable to understanding how the brain processes speech in a noise-free sentence listening setting.
+        - Thinking about building neuroscience experiments that are ecologically valid is important, especially when working with children or clinical populations who may not be able to withstand long and tedious tasks. A follow up study utilized the same movie trailer and sentence listening stimuli to answer a fundamental methodological question: how much data does one need to collect to trust the fidelity of the results when using naturalistic stimuli? When working with clinical populations or children, an experimenter may be limited in the amount of time they have for data collection. In a study published in the Journal of Neuroscience, we investigated acoustic and phonetic selectivity measured with EEG collected over the span of one hour. However, if recording time is limited, we investigated if the results would still be as reliable with a shorter experimental session. We found that fewer trials or seconds of data were needed on average across participants when using various natural speech stimuli.
         - title: Description 3.
           contents:
             - Sub-description 1.
