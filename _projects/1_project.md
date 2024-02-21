@@ -1,16 +1,16 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Generalizable EEG encoding models with naturalistic audiovisual stimuli
+description: Findings summarized from Desai et al. 2021 (Journal of Neuroscience)
+img: assets/img/Fig1.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Understanding speech and language is something that humans engage in daily, and for many it is relatively effortless. However, the brain’s ability to comprehend speech in a naturalistic and noisy environment is a complex process. To understand this process, scientists conduct experiments using electrophysiological measurements such as electroencephalography (EEG), a non-invasive method of recording brain activity from the level of the scalp, and various types of stimuli. These stimuli range from simple “clicks” or “tones”, to syllables, or short sentences. Unfortunately, these stimuli are limited in understanding how the brain processes speech and sounds in a naturalistic environment. Additionally, listening to a single tone of a syllable such as “ba” or “ga” or sentences repeatedly as an EEG participant is tedious and boring. 
+
+ We used naturalistic stimuli, specifically children’s movie trailers, to understand how the brain processes speech and audiovisual information. A primary motivation of this study was to see if it possible to replace more controlled experiments, such as sentence listening, with stimuli that are more engaging and fun to listen to. This is particularly important as some of my dissertation research involved working with children in an in-patient hospital environment, so interesting tasks mean a better experience for both researcher and participant. These results showed that it was possible to robustly encode speech using acoustically rich and naturalistic stimuli such as movie trailers and these results were comparable to understanding how the brain processes speech in a noise-free sentence listening setting [1].
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
