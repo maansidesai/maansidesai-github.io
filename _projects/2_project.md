@@ -33,7 +33,9 @@ In this study, we used the same movie trailer and TIMIT speech sentences in addi
   .video {
     width: 45%; /* Adjust as needed */
   }
+</style>
 
+<body>
 
 <div class="video-container">
   <video class="video" controls>
@@ -47,7 +49,7 @@ In this study, we used the same movie trailer and TIMIT speech sentences in addi
   </video>
 </div>
 
-
+</body>
 
 
 
