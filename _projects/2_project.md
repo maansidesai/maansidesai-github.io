@@ -20,24 +20,37 @@ In this study, we used the same movie trailer and TIMIT speech sentences in addi
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    This plot shows the increasing correlation value based on the stimulus set used (TIMIT, movie trailers, or audiobooks) for each feature representation used (acoustic or phonetic) to predict the EEG data. Dashed vertical lines and shading indicate the knee point and corresponding error bar for each individual model type. Despite different numbers of features and differing model complexity, a similar amount of data was required for each of these models
 </div>
 
-<div id="videoal">
-    <div class="video">
-        <video controls>
-            <source src="assets/img/timit.mp4" type="video/mp4">
-            <source src="assets/img/timit.ogg" type="video/ogg">
-        </video>
-    </div>
-    <div class="video">
-       <video controls>
-           <source src="assets/img/mt.mp4" type="video/mp4">
-           <source src="assets/img/mt.ogg" type="video/ogg">
-       </video>
-    </div>
+<title>Embedded Videos</title>
+<style>
+  .video-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .video {
+    width: 45%; /* Adjust as needed */
+  }
+</style>
+</head>
+<body>
+
+<div class="video-container">
+  <video class="video" controls>
+    <source src="assets/video/timit.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+  <video class="video" controls>
+    <source src="assets/video/mt.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
+</body>
 
 
 
