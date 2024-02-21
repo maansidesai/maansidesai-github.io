@@ -1,18 +1,27 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Dataset size considerations
+description: Findings summarized from Desai et al. 2023 (Frontiers in Human Neuroscience)
+img: assets/img/MT_how_much.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Thinking about building neuroscience experiments that are ecologically valid is important, especially when working with children or clinical populations who may not be able to withstand long and tedious tasks. A follow up study utilized the same movie trailer and sentence listening stimuli to answer a fundamental methodological question: how much data does one need to collect to trust the fidelity of the results when using naturalistic stimuli? When working with clinical populations or children, an experimenter may be limited in the amount of time they have for data collection. In the 2021 JNeuro study, we investigated acoustic and phonetic selectivity measured with EEG collected over the span of one hour. We wondered, however, whether their results would still be as reliable with a shorter experimental session. Myself and colleagues in the Hamilton lab have reported considerations for the amount of data needed and provide some suggestions for future developing natural speech experimental paradigms. 
+
+In this study, we used the same movie trailer and TIMIT speech sentences in addition to openly published existing EEG dataset where <a href="https://pubmed.ncbi.nlm.nih.gov/29478856/">Broderick et al. 2018</a> had participants listened to audiobooks, another form of naturalisitic speech stimuli. We conducted the same encoding model by chunking our training set data into 2-second long segments. The size of the data subset started with 10 random sentences for TIMIT, or 10 2-s chunks of movie trailers or audiobook stimuli. This chunk size was chosen as it is similar to the average TIMIT sentence length. After fitting the models on a subset of data, the size of the training set was gradually increased (by 1 random TIMIT sentence at a time or a random 2-s chunk of movie trailers or a random 2-s chunk of audiobooks). For each training set size, we used a 10-fold bootstrapping procedure so that the particular 2-s chunks included in the training set were sampled randomly from the original training dataset.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/how_much_data_2.jpg" title="Main kneepoint figure" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
 
     ---
     layout: page
@@ -37,7 +46,7 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/how_much_data_2.jpg" title="Main kneepoint figure" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
