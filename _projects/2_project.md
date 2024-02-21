@@ -12,7 +12,7 @@ Thinking about building neuroscience experiments that are ecologically valid is 
 
 In this study, we used the same movie trailer and TIMIT speech sentences in addition to openly published existing EEG dataset where <a href="https://pubmed.ncbi.nlm.nih.gov/29478856/">Broderick et al. 2018</a> had participants listened to audiobooks, another form of naturalisitic speech stimuli. We conducted the same encoding model by chunking our training set data into 2-second long segments. The size of the data subset started with 10 random sentences for TIMIT, or 10 2-s chunks of movie trailers or audiobook stimuli. This chunk size was chosen as it is similar to the average TIMIT sentence length. After fitting the models on a subset of data, the size of the training set was gradually increased (by 1 random TIMIT sentence at a time or a random 2-s chunk of movie trailers or a random 2-s chunk of audiobooks). For each training set size, we used a 10-fold bootstrapping procedure so that the particular 2-s chunks included in the training set were sampled randomly from the original training dataset.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -23,12 +23,25 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div id="videoal">
+    <div class="video">
+        <video controls>
+            <source src="assets/img/timit.mp4" type="video/mp4">
+            <source src="assets/img/timit.ogg" type="video/ogg">
+        </video>
+    </div>
+    <div class="video">
+       <video controls>
+           <source src="assets/img/mt.mp4" type="video/mp4">
+           <source src="assets/img/mt.ogg" type="video/ogg">
+       </video>
+    </div>
+</div>
+
+
+
+
+Extra code below to remove/edit
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
