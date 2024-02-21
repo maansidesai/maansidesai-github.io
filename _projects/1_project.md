@@ -13,41 +13,16 @@ Understanding speech and language is something that humans engage in daily, and 
  We used naturalistic stimuli, specifically children’s movie trailers, to understand how the brain processes speech and audiovisual information. A primary motivation of this study was to see if it possible to replace more controlled experiments, such as sentence listening, with stimuli that are more engaging and fun to listen to. This is particularly important as some of my dissertation research involved working with children in an in-patient hospital environment, so interesting tasks mean a better experience for both researcher and participant. These results showed that it was possible to robustly encode speech using acoustically rich and naturalistic stimuli such as movie trailers and these results were comparable to understanding how the brain processes speech in a noise-free sentence listening setting [1].
 
 
-<!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    --- -->
-
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Fig1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div> -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/F1.large.jpg" title="Task and analysis schematic" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Task and analysis schematic (Figure 1 from the study). Here, recorded scalp EEG responses as participants listened to sentence from the TIMIT (Texas Instruments Massachusetts Institute of Technology) speech corpus, and listened to and watched movie trailers. We extracted acoustic and phonetic properties of the corresponding speech information and fit encoding models to predict neural responses to these speech feature representations at each EEG channel. 
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Our results demonstrated 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
