@@ -208,65 +208,77 @@
     }],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Computational Neuroscience",
+      "level": "PhD",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Human electrophysiology",
+        "Signal processing",
+        "Machine learning",
+        "Statistical analysis",
+        "Grant writing",
+        "Experimental design",
+        "Clinical data collection", 
+        "Data visualization",
+        "Python", 
+        "MATLAB",
+        "Bash",
+        "Swift"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
+      "language": "Gujarati",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Proficient",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Proficient",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Neuroscience",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Brain-computer interfaces",
+        "Communication systems",
+        "Translational research",
+        "Speech and motor impairments",
+        "Epilepsy",
+        "Patient-facing"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Generalizable EEG responses using naturalistic audiovisual stimuli",
+      "summary": "Utilized linear encoding models and statistical analysis to validate the use of naturalistic audiovisual movie clips as an experimental paradigm to model speech and multisensory information using scalp- EEG and stereo-electroencephalography (sEEG). Results published in the Journal of Neuroscience.",
+      "highlights": ["Naturalistic stimuli", "EEG", "Encoding models", "audiovisual"],
+      "startDate": "2018-08-24",
+      "endDate": "2021-10-27",
+      "url": "https://www.youtube.com/watch?v=xlR_wQcq-nc"
+    },
+    {
+      "name": "Dataset size considerations for natural speech experiments using EEG",
+      "summary": "Used Monte-Carlo cross-validation analysis and linear encoding model to assess the amount of testing and training data needed for different types of natural speech experiments for electrophysiological recordings. Results published in Frontiers for Human Neuroscience.",
+      "highlights": ["Naturalistic speech stimuli", "EEG", "linear encoding models", "Monte-Carlo cross-validation"],
+      "startDate": "2020-03-24",
+      "endDate": "2023-01-20",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2022.1001171/full#supplementary-material"
     }
   ]
 }
