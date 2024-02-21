@@ -13,11 +13,6 @@ Thinking about building neuroscience experiments that are ecologically valid is 
 In this study, we used the same movie trailer and TIMIT speech sentences in addition to openly published existing EEG dataset where <a href="https://pubmed.ncbi.nlm.nih.gov/29478856/">Broderick et al. 2018</a> had participants listened to audiobooks, another form of naturalisitic speech stimuli. We conducted the same encoding model by chunking our training set data into 2-second long segments. The size of the data subset started with 10 random sentences for TIMIT, or 10 2-s chunks of movie trailers or audiobook stimuli. This chunk size was chosen as it is similar to the average TIMIT sentence length. After fitting the models on a subset of data, the size of the training set was gradually increased (by 1 random TIMIT sentence at a time or a random 2-s chunk of movie trailers or a random 2-s chunk of audiobooks). For each training set size, we used a 10-fold bootstrapping procedure so that the particular 2-s chunks included in the training set were sampled randomly from the original training dataset.
 
 
-<video controls="" width="800" height="500" muted="" loop="" autoplay="">
-<source src="https://github.com/maansidesai/maansidesai.github.io/blob/master/assets/video/timit.mp4" type="video/mp4">
-</video>
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/how_much_data_2.jpg" title="Main kneepoint figure" class="img-fluid rounded z-depth-1" %}
@@ -38,9 +33,7 @@ In this study, we used the same movie trailer and TIMIT speech sentences in addi
   .video {
     width: 45%; /* Adjust as needed */
   }
-</style>
-</head>
-<body>
+
 
 <div class="video-container">
   <video class="video" controls>
@@ -54,7 +47,7 @@ In this study, we used the same movie trailer and TIMIT speech sentences in addi
   </video>
 </div>
 
-</body>
+
 
 
 
