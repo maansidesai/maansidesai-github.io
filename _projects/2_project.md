@@ -44,12 +44,12 @@ One method of evaluating model performance is by examining the correlation coeff
 
 <div class="video-container">
   <video class="video" controls>
-    <source src="assets/video/timit.mp4" type="video/mp4">
+    <source src="https://maansidesai.github.io/assets/video/timit.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   
   <video class="video" controls>
-    <source src="assets/video/mt.mp4" type="video/mp4">
+    <source src="https://maansidesai.github.io/assets/video/mt.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
